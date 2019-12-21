@@ -17,6 +17,7 @@ For questions on this project and code please reach out to: `Rakesh Nagaraju` at
 * CUDA: 8.0
 
 # Preparation
+Download **PASCAL VOC 2007 dataset**
 
 Clone this repository
 ```sh
@@ -49,7 +50,7 @@ Run the `startup.sh` script
 ```sh
 sh startup.sh
 ```
-This will compile the required libraries in the lib folder and also download **PASCAL VOC dataset** in the dataset folder as well as download a pre-trained model in **data/pretrained_model** directory.
+This will compile the required libraries in the lib folder and also download a pre-trained model in **data/pretrained_model** directory and download **PASCAL VOC dataset** in data folder(if not just download Pascal VOC 2007 dataset from the internet and put in the folder named data).
 
 **NOTE:** The libraries in the current state are compiled for Nvidia Tesla K80 GPU. Change the CUDA_ARCH argument in `lib/make.sh` if you're using a different GPU. Refer this [link]([https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)) for the correct architecture for your GPU. You can also refer the [CUDA WIKI]([https://en.wikipedia.org/wiki/CUDA#GPUs_supported](https://en.wikipedia.org/wiki/CUDA#GPUs_supported)) to get the correct architecture. 
 
