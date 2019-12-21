@@ -2,13 +2,14 @@
 
 This repository implements the code for [Repulsion Loss: Detecting pedestrians in a crowd]([https://arxiv.org/pdf/1711.07752v2.pdf](https://arxiv.org/pdf/1711.07752v2.pdf)). This page(code, project and presentation) is the submission for Group B for final project for the course CS 256: Topics in Artificial Intelligence, Section 2 led by Prof. Mashhour Soul, PhD.
 The group members include: 
+* [Rakesh Nagaraju](mailto:rakesh.nagaraju@sjsu.edu)
 * [Vidish Naik](mailto:vidish.naik@sjsu.edu)
 * [Joel Alvares](mailto:joel.alvares@sjsu.edu)
 * [Charulata Lodha](mailto:charulata.lodha@sjsu.edu)
-* [Rakesh Nagaraju](mailto:rakesh.nagaraju@sjsu.edu)
+
 
 The code maybe used for educational and commercial use under no warranties. 
-For questions on this project and code please reach out to: `Vidish Naik` at `vidish.naik@sjsu.edu`
+For questions on this project and code please reach out to: `Rakesh Nagaraju` at `rakesh.nagaraju@sjsu.edu`
 
 # Requirements:
 * PyTorch: 0.4.0
@@ -19,7 +20,7 @@ For questions on this project and code please reach out to: `Vidish Naik` at `vi
 
 Clone this repository
 ```sh
-git clone https://github.com/VidishNaik/RepulsionLoss.git
+git clone https://github.com/Raki2205/Raki2205-Pedestrian-Detection-using-Faster-RCNN-with-Repulsion-Loss.git
 ```
 cd into the folder
 ```sh
