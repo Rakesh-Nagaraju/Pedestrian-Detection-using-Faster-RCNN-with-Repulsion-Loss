@@ -1,0 +1,13 @@
+cython
+cffi
+opencv-python
+scipy==1.1.0
+msgpack
+easydict
+matplotlib
+pyyaml
+tensorboardX
+Pillow
+imutils
+torch==0.4.0
+torchvision==0.2.0
